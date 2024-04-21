@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="to-do-list.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="projectTitle"contenteditable="false" >Project Title</h1>
+        <button id="editProjectButton" onclick="toggleEditProjectTitle()">Edit Project Title</button>
+        <button id="saveProjectButton" style="display: none;" onclick="saveProjectTitle()">Save</button>
+        
+        <p id="summary">Summary: 0 / 0 completed</p>
+        <input type="text" id="taskInput" placeholder="Add a new task">
+        <button onclick="addTask('projectName')">Add Task</button>
+        <h2>Pending Todos</h2>
+        <ul id="pendingTodos"></ul>
+        <h2>Completed Todos</h2>
+        <ul id="completedTodos"></ul>
+        <!-- <button onclick="downloadMarkdown()">Download Markdown</button> -->
+        <!-- <button onclick="exportAsSecretGist()">Download Markdown</button> -->
+        <button onclick="generateAndDownloadMarkdown('gist')">Export as Gist</button>
+        <button onclick="generateAndDownloadMarkdown('download')">Download Markdown</button>
+        
+    </div>
+
+    <script src="toDoList.js"></script>
+</body>
+
+</html>
