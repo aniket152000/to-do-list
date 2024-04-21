@@ -6,7 +6,7 @@ I developed a task management system utilizing Spring Boot as the backend framew
 
 # how to setup this project :
 
-1. Clone the Repository:
+** 1. Clone the Repository: **
 
 Clone the repository using Git with the following command:
 
