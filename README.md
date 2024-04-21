@@ -57,8 +57,9 @@ This will launch Chrome and open the login page (login.html).
 **8. Login to the Application:**
 
 Use the following credentials to log in:
-Username: admin
-Password: password
+
+**Username:** admin
+**Password:** password
 
 
 
