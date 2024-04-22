@@ -34,19 +34,20 @@ Replace the placeholder "GITHUB_ACCESS_TOKEN" with the actual GitHub personal ac
 Open a terminal and navigate to the root directory of the project.
 Run the following Maven command to start the Spring Boot application:
 
-mvn spring-boot:run
+`mvn spring-boot:run`
 
 **6. Configure Launch Settings for Chrome:**
 
 Create a launch.json file for configuring the launch settings in Visual Studio Code (assuming you are using VS Code).
 Add the following configuration to the launch.json file:
-
+```
 {
     "type": "chrome",
     "request": "launch",
     "name": "Launch Chrome against localhost",
     "url": "file:///{workingdir}/login.html"
 }
+```
 Replace {workingdir} with the actual path to your project's working directory.
 
 **7. Run the Application:**
