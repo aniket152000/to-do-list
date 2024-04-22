@@ -10,7 +10,7 @@ I developed a task management system utilizing Spring Boot as the backend framew
 
 Clone the repository using Git with the following command:
 
-git clone -b master https://github.com/aniket152000/to-do-list.git
+`git clone -b master https://github.com/aniket152000/to-do-list.git`
 
 **2. Set up the Database:**
 
