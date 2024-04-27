@@ -4,6 +4,11 @@
 
 I developed a task management system utilizing Spring Boot as the backend framework and HTML, CSS, and JavaScript as the frontend technologies, with MS SQL serving as the database. This system enables users to create new projects, manage project tasks (add, edit, remove, mark as complete/pending), and export projects as Gists or download them as Markdown files. Additionally, users can modify project titles within the system.
 
+# Video demo 
+
+https://github.com/aniket152000/to-do-list/assets/68470512/8a6dcfc6-3e7a-4c00-803f-62b5604e23f3
+
+
 # how to setup this project :
 
 **1. Clone the Repository:**
@@ -61,6 +66,4 @@ Use the following credentials to log in:
 
 **Username:** admin
 **Password:** password
-
-
 
